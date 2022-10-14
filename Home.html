@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieSBook</title>
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="icon" type="image/png" href="./source/img/MB.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="Home.html"><img src="./source/img/Logo.png" alt="Logo de la marca"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Peliculas.html">Peliculas</a></li>
+                <li><a href="series.html">Series</a></li>
+                <li><a href="book.html">Libros</a></li>
+            </ul>
+        </nav>
+        
+        <input id="searchbar" onkeyup="search_categoria()" type="text"
+        name="search" placeholder="Buscar">
+
+    </header>
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">¡BIENVENIDO!</h3>
+                <p class="descripcion">
+                    Es hora de ojear el maraton de MovieSBook donde encontrarás algo jamás visto.
+                </p>
+                <a href="./Peliculas.html"><button role="button" class="boton"><i class="fas fa-play "></i>Peliculas</button></a>
+                <a href="./series.html"><button role="button" class="boton"><i class="fas fa-info-circle "></i>Series</button></a>
+                <a href="./book.html"><button role="button" class="boton"><i class="fas fa-info-circle "></i>Libros</button></a>
+            </div>
+        </div>
+    </main>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img class="quines_somos" src="source/img/quienes somos.png" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span> Peliculas</h3>
+                        <p>Las mejores peliculas en su mejor calidad</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span> Series</h3>
+                        <p> Las mejores series con todos sus capitulos</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span> Libros</h3>
+                        <p> Los mejores libro listos para su descarga</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="blog">
+        <div class="contenedor">
+            <article class="caja">
+                <a href="./MovieSBook.html"><img src="./source/img/pelicula.jpg" alt="fail"></a>
+                <h4>Pelicula</h4>
+            </article>
+            <article class="caja">
+                <a href="./series.html"><img src="./source/img/serie.jpg" alt="fail"></a>
+                <h4>Serie</h4>
+            </article>
+            <article class="caja">
+                <a href="./book.html"><img src="./source/img/libro.jpg" alt="fail"></a>
+                <h4>Libro</h4>
+            </article>
+        </div>
+        <div class="pie ">
+            <footer id="contacto ">
+                <div class="contenedor footer-content ">
+                    <div class="contact-us ">
+
+                    </div>
+            </footer>
+            <script src="Js/buscador.js"></script>
+
+</body>
+
+</html>
