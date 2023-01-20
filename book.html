@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/book.CSS">
+    <link rel="shortcut icon" href="source/img/Libro.png" type="image/x-icon">
+    <title> Libros </title>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="Home.html"><img src="./source/img/Logo.png" alt="Logo de la marca"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Peliculas.html">Peliculas</a></li>
+                <li><a href="series.html">Series</a></li>
+                <li><a href="book.html">Libros</a></li>
+            </ul>
+        </nav>
+
+        <input id="searchbar" onkeyup="search_categoria()" type="text"
+        name="search" placeholder="Buscar">
+
+                <script src="js/navegador.js"></script>
+    </header>
+
+    <main>
+        <div class="libreria-principal">
+            <div class="contenedor">
+                <h3 class="titulo">LIBROS</h3>
+                <p class="descripcion">
+                    En este sitio le recomendaremos algunos libros que pensamos que le podrá llamar la atención.
+                </p>
+                <a href="./book - Terror.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i>Terror</button></a>
+                <a href="./book - Misterio.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i>Misterio</button></a>
+                <a href="./book - Policial.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i>Policial</button></a>
+                <a href="./book - Novela.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i>Novela</button></a>
+                <a href="./book - Ficcion.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i>Ficción</button></a>
+            </div>
+        </div>
+    </main>
+
+    <section id="blog">
+        <div class="contenedor caja">
+            <article class="caja">
+                <a href="https://www.buscalibre.com.co/libro-indigno-de-ser-humano/9788493741372/p/3398341"><img class="black" src="source/img/dazai.jpg" alt="fail"></a>
+                <h4>Indigno de ser humano</h4>
+            </article>
+            <article class="caja">
+                <a href="https://books.google.com.co/books/about/Pobres_gentes.html?id=xFloDwAAQBAJ&printsec=frontcover&source=kp_read_button&hl=es&redir_esc=y#v=onepage&q&f=false"><img class="black" src="source/img/pobres.jpg" alt="fail"></a>
+                <h4>Pobres gentes</h4>
+            </article>
+            <article class="caja">
+                <a href="https://books.google.com.co/books/about/Crimen_y_castigo.html?id=_fY9DwAAQBAJ&printsec=frontcover&source=kp_read_button&hl=es&redir_esc=y#v=onepage&q&f=false"><img class="black" src="source/img/fyodor.png" alt="fail"></a>
+                <h4>Crimen y castigo</h4>
+            </article>
+            <article class="caja">
+                <a href="https://books.google.com.co/books/about/La_metamorfosis.html?id=iFotCgAAQBAJ&printsec=frontcover&source=kp_read_button&hl=es&redir_esc=y#v=onepage&q&f=false"><img class="black" src="source/img/kafka.jpg" alt="fail"></a>
+                <h4>La metamorfosis</h4>
+            </article>
+            <article class="caja">
+                <a href="https://books.google.com.co/books/about/El_ocaso.html?id=uYK9YJojs7oC&printsec=frontcover&source=kp_read_button&hl=es&redir_esc=y#v=onepage&q&f=false"><img class="black" src="source/img/ocaso.jpg" alt="fail"></a>
+                <h4>El ocaso</h4>
+            </article>
+        </div>
+
+        <div class="contenedor caja">
+            <article class="caja">
+                <a href="https://librerianacional.com/producto/los-crimenes-de-la-calle-morgue"><img class="black" src="source/img/edgar.jpg" alt="fail"></a>
+                    <h4>Los crímenes de la calle Morgue</h4>
+            </article>
+        </div>
+        <div class="pie">
+            <footer id="contacto ">
+                <div class="contenedor footer-content ">
+                    <div class="contact-us ">
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+</body>
+<script src="Js/buscador.js"></script>
+</html>
